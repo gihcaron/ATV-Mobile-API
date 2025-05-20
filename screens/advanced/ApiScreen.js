@@ -4,7 +4,6 @@ import { Image, StyleSheet, View } from "react-native";
 export default function ApiScreen() {
     return (
         <View style={styles.container}>
-            <Image source={{ uri: "https://pbs.twimg.com/media/FNaByxLXMAE_Ruc.png" }} style={{ width: 300, height: 265 }} />
         </View>
     );
 }
